@@ -40,6 +40,8 @@ section{padding:clamp(72px,12vw,140px) clamp(20px,6vw,96px)}
 h1,h2,h3{position:relative;font-family:var(--f1);font-weight:600;margin:0;animation:title-roll 4.5s ease-in-out infinite alternate}
 @keyframes title-roll{from{left:-12px}to{left:12px}}
 h2{font-size:clamp(1.7rem,4vw,2.6rem);letter-spacing:-.02em;margin-bottom:32px}
+h1,section>h2{display:table;width:fit-content;max-width:100%;margin-left:auto;margin-right:auto;isolation:isolate}
+h1::before,section>h2::before{content:"";position:absolute;inset:-.2em -.45em;z-index:-1;border:1px solid rgba(88,207,151,.5);border-radius:14px;background:linear-gradient(145deg,rgba(19,54,38,.78),rgba(4,12,8,.78));box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 2px 0 rgba(88,207,151,.55),0 7px 0 rgba(12,56,37,.9),0 12px 20px rgba(0,0,0,.42);transform:perspective(600px) rotateX(4deg) rotateY(-3deg)}
 p{margin:0 0 1em;max-width:62ch;color:var(--mu)}
 .hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:120px}
 h1{font-size:clamp(2.4rem,9.4vw,7rem);line-height:1.02;letter-spacing:-.035em}
