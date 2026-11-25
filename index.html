@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TSIKINIAINA Nandrianina – smile</title>
+<meta name="description" content="Portfolio de TSIKINIAINA Nandrianina, développeur web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Sora:wght@500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+<div class="stars" aria-hidden="true">
+  <svg class="moon" viewBox="0 0 100 100">
+    <defs>
+      <mask id="moon-crescent"><rect width="100" height="100" fill="#000"/><circle cx="50" cy="50" r="46" fill="#fff"/><circle cx="76" cy="50" r="46" fill="#000"/></mask>
+      <radialGradient id="moon-surface" cx="34%" cy="30%" r="72%"><stop stop-color="#fff" offset="0"/><stop stop-color="#e4eee7" offset=".62"/><stop stop-color="#8fa195" offset="1"/></radialGradient>
+      <linearGradient id="moon-depth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".12"/><stop offset=".48" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#07100b" stop-opacity=".78"/></linearGradient>
+    </defs>
+    <g mask="url(#moon-crescent)">
+      <circle cx="50" cy="50" r="46" fill="url(#moon-surface)"/>
+      <g fill="#73877a" opacity=".24"><circle cx="32" cy="34" r="8"/><circle cx="61" cy="28" r="5"/><circle cx="69" cy="51" r="9"/><circle cx="42" cy="65" r="6"/><circle cx="27" cy="57" r="4"/><circle cx="57" cy="76" r="5"/></g>
+      <g fill="none" stroke="#718477" stroke-width="1.5" opacity=".25"><circle cx="32" cy="34" r="11"/><circle cx="69" cy="51" r="13"/><circle cx="42" cy="65" r="9"/></g>
+      <circle cx="50" cy="50" r="46" fill="url(#moon-depth)"/>
+      <circle cx="50" cy="50" r="45.5" fill="none" stroke="#fff" stroke-opacity=".28"/>
+    </g>
+    <g fill="#132219" stroke="#132219" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      <circle cx="60" cy="7" r="2.5"/>
+      <circle cx="64" cy="6" r="1.1"/>
+      <path d="M58.5 10h3.5l2 7h-8z"/>
+      <path d="m59 12-4 3m7-3 4 2m-7 3-2 5m5-5 3 5" fill="none"/>
+    </g>
+  </svg>
+  <span class="planet planet-green"></span><span class="planet planet-ringed"></span>
+  <span class="shooting-star"></span><span class="shooting-star"></span><span class="shooting-star"></span><span class="shooting-star"></span><span class="shooting-star"></span>
+</div>
+<div class="c1" aria-hidden="true"></div><div class="c2" aria-hidden="true"></div>
+<nav>
+  <a class="br" href="#top">SMILE</a>
+  <div class="nl">
+    <a href="#projets" data-en="Projects">Projets</a>
+    <a href="#apropos" data-en="About">À propos</a>
+    <a href="#cv" data-en="Skills">Compétences</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="lg" role="group" aria-label="Langue / Language">
+    <button data-l="fr" aria-pressed="true">FR</button><button data-l="en" aria-pressed="false">EN</button>
+  </div>
+</nav>
+<main id="top">
+  <section class="hero">
+    <h1 class="in" style="--d:1"><span>TSIKINIAINA</span><span>Nandrianina</span></h1>
+    <p class="sub in" style="--d:3" data-en="Web developer, a.k.a. smile.">Développeur web, alias smile.</p>
+    <p class="in" style="--d:4" data-en="I make websites with HTML, CSS and JavaScript, no frameworks. I like it when things stay simple and just work.">Je fais des sites web en HTML, CSS et JavaScript, sans framework. J’aime quand les choses restent simples et fonctionnent bien.</p>
+    <div class="btns in" style="--d:5">
+      <a class="btn" href="#projets" data-en="See my projects">Voir mes projets</a>
+      <a class="btn g" href="#contact" data-en="Contact me">Me contacter</a>
+    </div>
+  </section>
+
+  <section id="projets" aria-label="Projets">
+    <div class="project-marquee">
+      <div class="marquee-track">
+        <span class="marquee-text" data-en="WEB PROJECTS • HTML • CSS • JAVA • CREATIVITY •">PROJETS WEB • HTML • CSS • JAVA • CRÉATIVITÉ •</span>
+        <span class="marquee-text" aria-hidden="true" data-en="WEB PROJECTS • HTML • CSS • JAVA • CREATIVITY •">PROJETS WEB • HTML • CSS • JAVA • CRÉATIVITÉ •</span>
+      </div>
+    </div>
+    <h2 data-en="Projects">Projets</h2>
+    <div class="project-grid">
+      <article class="project-card rv">
+        <div class="project-banner">
+          <div class="project-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="9" width="34" height="25" rx="4" stroke="currentColor" stroke-width="2.4"/><circle cx="18" cy="19" r="4" stroke="currentColor" stroke-width="2.4"/><path d="M12 29c1.3-3.5 10.7-3.5 12 0M28 17h8M28 22h8M28 27h5M17 40h14M24 34v6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </div>
+          <p class="project-banner-title" data-en="Student management">Gestion des étudiants</p>
+        </div>
+        <div class="project-body">
+          <p class="project-type" data-en="MANAGEMENT APPLICATION">APPLICATION DE GESTION</p>
+          <h3 data-en="Student management">Gestion Étudiants</h3>
+          <p data-en="An illustrative interface to organize student records, follow enrollment and simplify administrative tasks.">Une interface illustrative pour centraliser les dossiers étudiants, suivre les inscriptions et simplifier la gestion administrative.</p>
+          <ul class="project-tags" aria-label="Sujets du projet"><li data-en="Students">Étudiants</li><li data-en="Enrollment">Inscriptions</li><li data-en="Administration">Administration</li></ul>
+        </div>
+      </article>
+      <article class="project-card rv">
+        <div class="project-banner">
+          <div class="project-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="7" y="9" width="34" height="30" rx="4" stroke="currentColor" stroke-width="2.4"/><path d="M7 17h34M13 13h.1M17 13h.1M21 13h.1M17 25l-4 4 4 4M23 33h8M27 25l4 4-4 4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <p class="project-banner-title" data-en="Portfolio website">Portfolio site web</p>
+        </div>
+        <div class="project-body">
+          <p class="project-type" data-en="PERSONAL WEBSITE">SITE PERSONNEL</p>
+          <h3 data-en="Web portfolio">Portfolio Web</h3>
+          <p data-en="A responsive personal website presenting a developer’s profile, skills and selected projects in a clear layout.">Un site personnel adaptable aux écrans, qui présente un profil, des compétences et des projets dans une mise en page claire.</p>
+          <ul class="project-tags" aria-label="Technologies du projet"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="apropos">
+    <h2 class="rv" data-en="About">À propos</h2>
+    <div class="ab"><figure class="pf rv"><img src="image/smile.jpeg" alt="Portrait de Nandrianina" loading="lazy"></figure><div class="about-copy rv">
+    <p class="rv" data-en="Hi, I’m Nandrianina, but most people call me Smile. I do web development and I stick to the basics: HTML, CSS and JavaScript.">Salut, moi c’est Nandrianina, mais beaucoup m’appellent Smile. Je fais du développement web et je m’en tiens aux bases : HTML, CSS et JavaScript.</p>
+    <p class="rv" data-en="I’d rather understand every line I write than pile up tools. My goal: pages that load fast and stay clear on a phone or a big screen.">Je préfère comprendre chaque ligne que j’écris plutôt qu’empiler des outils. Mon but : des pages qui se chargent vite et restent claires sur un téléphone comme sur un grand écran.</p></div></div>
+  </section>
+
+  <section id="cv">
+    <h2 class="rv" data-en="Skills">Compétences</h2>
+    <div class="sg">
+      <div class="sk rv"><img src="image/html.svg" alt="Logo HTML5" loading="lazy"><h3>HTML</h3><p data-en="A clean, well-structured base that anyone can read.">Une base propre et bien structurée, lisible par tout le monde.</p></div>
+      <div class="sk rv"><img src="image/css.svg" alt="Logo CSS3" loading="lazy"><h3>CSS</h3><p data-en="Layouts that fit every screen, plus a few animations.">Des mises en page qui s’adaptent à tous les écrans, et quelques animations.</p></div>
+      <div class="sk rv"><img src="image/java.svg" alt="Logo Java" loading="lazy"><h3>Java</h3><p data-en="Building robust applications with object-oriented programming.">Concevoir des applications robustes avec la programmation orientée objet.</p></div>
+    </div>
+    
+  </section>
+
+  <section id="contact">
+    <h2 class="rv">Contact</h2>
+    <p class="rv" data-en="Find me on GitHub and Facebook, or send me an email.">Retrouve-moi sur GitHub et Facebook, ou écris-moi par e-mail.</p>
+    <div class="contact-links rv">
+      <a class="btn" href="https://github.com/nanssmile" target="_blank" rel="noopener noreferrer" data-en="Visit my GitHub">Voir mon GitHub</a>
+      <a class="btn" href="https://www.facebook.com/profile.php?id=61578408164150" target="_blank" rel="noopener noreferrer" data-en="Visit my Facebook profile">Mon profil Facebook</a>
+      <a class="btn contact-email" href="mailto:nanssmile8@gmail.com">nanssmile8@gmail.com</a>
+    </div>
+    
+    
+  </section>
+</main>
+<footer>© 2026 TSIKINIAINA Nandrianina</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
