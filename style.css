@@ -47,6 +47,8 @@ p{margin:0 0 1em;max-width:62ch;color:var(--mu)}
 h1{font-size:clamp(2.4rem,9.4vw,7rem);line-height:1.02;letter-spacing:-.035em}
 h1 span{display:block}
 h1 span+span{color:var(--hi)}.hero h1 span+span{animation:heroGlow 3s ease-in-out infinite alternate}
+.hero h1 span{color:rgba(227,237,231,.38);-webkit-text-fill-color:transparent;-webkit-text-stroke:1.2px rgba(227,237,231,.78)}
+.hero h1 span+span{color:rgba(88,207,151,.38);-webkit-text-stroke-color:rgba(88,207,151,.92)}
 @keyframes heroGlow{from{text-shadow:0 0 0 rgba(88,207,151,0)}to{text-shadow:0 0 24px rgba(88,207,151,.32)}}
 .sub{font:500 clamp(1.1rem,2.4vw,1.6rem) var(--f1);margin:28px 0 12px;color:var(--tx)}
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
