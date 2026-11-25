@@ -44,10 +44,10 @@ p{margin:0 0 1em;max-width:62ch;color:var(--mu)}
 .hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-top:120px}
 h1{font-size:clamp(2.4rem,9.4vw,7rem);line-height:1.02;letter-spacing:-.035em}
 h1 span{display:block}
-h1 span+span{color:var(--hi)}.hero h1 span+span{animation:heroGlow 3s ease-in-out infinite alternate}
+h1 span+span{color:var(--hi)}.hero h1 span{animation:heroGlow 2.4s ease-in-out infinite alternate}.hero h1 span+span{animation-delay:1.2s}
 .hero h1 span{color:rgba(227,237,231,.38);-webkit-text-fill-color:transparent;-webkit-text-stroke:1.2px rgba(227,237,231,.78)}
 .hero h1 span+span{color:rgba(88,207,151,.38);-webkit-text-stroke-color:rgba(88,207,151,.92)}
-@keyframes heroGlow{from{text-shadow:0 0 0 rgba(88,207,151,0)}to{text-shadow:0 0 24px rgba(88,207,151,.32)}}
+@keyframes heroGlow{from{text-shadow:0 0 2px rgba(88,207,151,.2),0 0 10px rgba(88,207,151,.12)}to{text-shadow:0 0 14px rgba(88,207,151,.95),0 0 30px rgba(88,207,151,.6),0 0 52px rgba(88,207,151,.3)}}
 .sub{font:500 clamp(1.1rem,2.4vw,1.6rem) var(--f1);margin:28px 0 12px;color:var(--tx)}
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .btn{display:inline-block;padding:12px 24px;border:1px solid var(--ac);border-radius:999px;text-decoration:none;color:var(--tx);transition:background .25s,color .25s,border-color .25s}
@@ -113,4 +113,4 @@ section p{margin-left:auto;margin-right:auto}
 .pf img{object-position:50% 42%;animation:portrait-roll 20s linear infinite}
 @keyframes portrait-roll{from{transform:rotate(0deg) scale(1.42)}to{transform:rotate(360deg) scale(1.42)}}
 footer{text-align:center}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .in,.js .rv{opacity:1;transform:none;animation:none;transition:none}h1,h2,h3,.hero h1 span+span{animation:none}.marquee-track,.bg::before,.stars::before,.stars::after,.shooting-star,.planet{animation:none}.shooting-star{display:none}.pf img{animation:none;object-position:50% 42%;transform:scale(1.42)}.project-card.rv:hover{transform:none;box-shadow:none}.sk,.sk img{transition:none!important}.sk.rv:hover,.sk:hover img{transform:none;box-shadow:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .in,.js .rv{opacity:1;transform:none;animation:none;transition:none}h1,h2,h3,.hero h1 span{animation:none}.marquee-track,.bg::before,.stars::before,.stars::after,.shooting-star,.planet{animation:none}.shooting-star{display:none}.pf img{animation:none;object-position:50% 42%;transform:scale(1.42)}.project-card.rv:hover{transform:none;box-shadow:none}.sk,.sk img{transition:none!important}.sk.rv:hover,.sk:hover img{transform:none;box-shadow:none}}
