@@ -9,7 +9,6 @@ a{color:inherit}
 @keyframes background-drift{from{transform:translate(-2%,-1%) scale(1)}to{transform:translate(2%,1%) scale(1.05)}}
 .bg::after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--ac) 1px,transparent 1px),linear-gradient(90deg,var(--ac) 1px,transparent 1px);background-size:56px 56px;opacity:.28;-webkit-mask-image:radial-gradient(360px circle at var(--mx) var(--my),#000,transparent);mask-image:radial-gradient(360px circle at var(--mx) var(--my),#000,transparent)}
 .stars{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
-.moon{position:absolute;top:12%;right:12%;width:clamp(72px,9vw,112px);height:auto;transform-style:preserve-3d;filter:drop-shadow(0 8px 14px rgba(0,0,0,.4)) drop-shadow(0 0 14px rgba(210,255,229,.16));opacity:.45}
 .planet{position:absolute;display:block;border-radius:50%;opacity:.58;filter:drop-shadow(0 0 12px rgba(88,207,151,.2));animation:planet-float 9s ease-in-out infinite alternate}
 .planet-green{top:48%;left:12%;width:30px;height:30px;background:radial-gradient(circle at 30% 28%,#d1ffe1 0,#62b986 24%,#1d593c 62%,#0b2117 100%)}
 .planet-ringed{top:72%;right:17%;width:46px;height:46px;background:radial-gradient(circle at 32% 28%,#e0e9ce 0,#91b88d 28%,#356b49 63%,#102719 100%);animation-delay:-4s}
@@ -112,4 +111,4 @@ section p{margin-left:auto;margin-right:auto}
 .pf img{object-position:50% 42%;animation:portrait-roll 20s linear infinite}
 @keyframes portrait-roll{from{transform:rotate(0deg) scale(1.42)}to{transform:rotate(360deg) scale(1.42)}}
 footer{text-align:center}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .in,.js .rv{opacity:1;transform:none;animation:none;transition:none}h1,h2,h3,.hero h1 span+span{animation:none}.marquee-track,.bg::before,.stars::before,.stars::after,.shooting-star,.moon,.planet{animation:none}.shooting-star{display:none}.pf img{animation:none;object-position:50% 42%;transform:scale(1.42)}.project-card.rv:hover{transform:none;box-shadow:none}.sk,.sk img{transition:none!important}.sk.rv:hover,.sk:hover img{transform:none;box-shadow:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js .in,.js .rv{opacity:1;transform:none;animation:none;transition:none}h1,h2,h3,.hero h1 span+span{animation:none}.marquee-track,.bg::before,.stars::before,.stars::after,.shooting-star,.planet{animation:none}.shooting-star{display:none}.pf img{animation:none;object-position:50% 42%;transform:scale(1.42)}.project-card.rv:hover{transform:none;box-shadow:none}.sk,.sk img{transition:none!important}.sk.rv:hover,.sk:hover img{transform:none;box-shadow:none}}
